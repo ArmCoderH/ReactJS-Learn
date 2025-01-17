@@ -1,0 +1,71 @@
+/* General button container styling */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 24px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* General button styling */
+.color-button {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border: none;
+  transition: transform 0.2s;
+}
+
+Hover effect
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+/* Specific color styles */
+.color-button.red {
+  background-color: red;
+}
+
+.color-button.green {
+  background-color: green;
+}
+
+.color-button.blue {
+  background-color: blue;
+}
+
+.color-button.yellow {
+  background-color: yellow;
+  color: black; /* For better contrast */
+}
+
+.color-button.purple {
+  background-color: purple;
+}
+
+.color-button.orange {
+  background-color: orange;
+}
+
+.color-button.pink {
+  background-color: pink;
+}
+
+.color-button.cyan {
+  background-color: cyan;
+}
+
+.color-button.brown {
+  background-color: brown;
+}
+
+.color-button.black {
+  background-color: black;
+}
