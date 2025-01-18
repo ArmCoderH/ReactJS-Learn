@@ -1,0 +1,19 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    background: black;
+}
+button:hover{
+    transition: background-color 200ms; 
+    background-color: brown;
+}
