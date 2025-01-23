@@ -1,0 +1,14 @@
+Step 1: Create store file using createConfig and Reducers
+Step 2 : Create Slice 
+
+things of Slice :   name : '',
+                    intialState,
+                    reducers : {
+                        methods()
+                    }
+
+
+
+Step 3 : Export all reducers
+
+Step 4 : useDispatch for send values to reducers && useSelector for get values 
